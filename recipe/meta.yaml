@@ -12,19 +12,20 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler('c') }}
+  host:
     - python
     - setuptools
     - pillow >=2.4.0
-    - freetype 2.7|2.7.*
+    - freetype
   run:
     - python
     - pillow >=2.4.0
-    - freetype 2.7|2.7.*
+    - freetype
 
 test:
   imports:
