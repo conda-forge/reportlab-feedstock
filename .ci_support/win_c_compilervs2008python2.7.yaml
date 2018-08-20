@@ -1,5 +1,9 @@
 c_compiler:
 - vs2008
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- conda-forge main
 freetype:
 - 2.9.1
 pin_run_as_build:
