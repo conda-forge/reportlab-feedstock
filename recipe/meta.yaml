@@ -1,6 +1,6 @@
 {% set name = "reportlab" %}
-{% set version = "3.5.32" %}
-{% set sha256 = "83ef44936ef4e9c432d62bc2b72ec8d772b87af319d123e827a72e9b6884c851" %}
+{% set version = "3.5.42" %}
+{% set sha256 = "9c21f202697a6cea57b9d716288fc919d99cbabeb30222eebfc7ff77eac32744" %}
 
 package:
   name: {{ name|lower }}
@@ -45,7 +45,7 @@ about:
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Open-source engine for creating complex, data-driven PDF documents and custom vector graphics'
+  summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics
   doc_url: http://www.reportlab.com/documentation/
 
 extra:
