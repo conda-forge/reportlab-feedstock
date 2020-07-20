@@ -5,7 +5,7 @@ Home: http://www.reportlab.com/opensource/
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics
 
