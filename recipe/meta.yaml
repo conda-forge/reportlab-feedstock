@@ -43,12 +43,13 @@ test:
     - reportlab.platypus
 
 about:
-  home: http://www.reportlab.com/opensource/
+  home: https://www.reportlab.com/opensource/
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics
-  doc_url: http://www.reportlab.com/documentation/
+  dev_url: https://hg.reportlab.com/hg-public/reportlab
+  doc_url: https://www.reportlab.com/dev/docs/
 
 extra:
   recipe-maintainers:
