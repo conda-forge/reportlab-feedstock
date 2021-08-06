@@ -22,11 +22,11 @@ requirements:
   host:
     - python
     - setuptools
-    - pillow >=2.4.0
+    - pillow >=4.0.0
     - freetype
   run:
     - python
-    - pillow >=2.4.0
+    - pillow >=4.0.0
     - freetype
 
 test:
