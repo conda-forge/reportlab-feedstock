@@ -1,6 +1,6 @@
 {% set name = "reportlab" %}
-{% set version = "3.5.68" %}
-{% set sha256 = "efef6a97e3ab49f3f40037dbf9a4166668a17cc6aaba13d5ecbabdf854a9b332" %}
+{% set version = "3.6.12" %}
+{% set sha256 = "b13cebf4e397bba14542bcd023338b6ff2c151a3a12aabca89eecbf972cb361a" %}
 
 package:
   name: {{ name|lower }}
@@ -22,11 +22,11 @@ requirements:
   host:
     - python
     - setuptools
-    - pillow >=2.4.0
+    - pillow >=9
     - freetype
   run:
     - python
-    - pillow >=2.4.0
+    - pillow >=9
     - freetype
 
 test:
