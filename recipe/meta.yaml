@@ -45,7 +45,7 @@ test:
 
 about:
   home: http://www.reportlab.com/opensource/
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics
