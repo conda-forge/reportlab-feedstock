@@ -1,6 +1,6 @@
 {% set name = "reportlab" %}
-{% set version = "3.5.68" %}
-{% set sha256 = "efef6a97e3ab49f3f40037dbf9a4166668a17cc6aaba13d5ecbabdf854a9b332" %}
+{% set version = "3.6.12" %}
+{% set sha256 = "b13cebf4e397bba14542bcd023338b6ff2c151a3a12aabca89eecbf972cb361a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -20,13 +20,14 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
   host:
+    - pip
     - python
     - setuptools
-    - pillow >=2.4.0
+    - pillow >=9
     - freetype
   run:
     - python
-    - pillow >=2.4.0
+    - pillow >=9
     - freetype
 
 test:
@@ -44,7 +45,7 @@ test:
 
 about:
   home: http://www.reportlab.com/opensource/
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics

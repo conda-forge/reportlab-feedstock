@@ -1,5 +1,7 @@
 #!/bin/bash
 
-$PYTHON setup.py install --single-version-externally-managed --record=record.txt
+$PYTHON -m pip install . -vv
 
-$PYTHON setup.py tests
+if [[ "${CONDA_BUILD_CROSS_COMPILATION}" != "1" ]]; then
+  $PYTHON setup.py tests
+fi
