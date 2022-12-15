@@ -3,7 +3,7 @@ About reportlab
 
 Home: http://www.reportlab.com/opensource/
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reportlab-feedstock/blob/main/LICENSE.txt)
 
@@ -325,5 +325,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bkpoon](https://github.com/bkpoon/)
 * [@mcs07](https://github.com/mcs07/)
 
