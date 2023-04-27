@@ -1,11 +1,11 @@
-About reportlab
-===============
+About reportlab-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reportlab-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.reportlab.com/opensource/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reportlab-feedstock/blob/main/LICENSE.txt)
 
 Summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics
 
