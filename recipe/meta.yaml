@@ -24,10 +24,12 @@ requirements:
     - python
     - setuptools
     - pillow >=9
+    - rlpycairo >=0.2.0
     - freetype-py >=2.3
   run:
     - python
     - pillow >=9
+    - rlpycairo >=0.2.0
     - freetype-py >=2.3
 
 test:
