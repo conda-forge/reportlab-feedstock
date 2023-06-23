@@ -46,12 +46,16 @@ test:
     - reportlab.platypus
 
 about:
-  home: http://www.reportlab.com/opensource/
+  home: https://www.reportlab.com/opensource/
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE.txt
+  license_file: LICENSE
   summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics
-  doc_url: http://www.reportlab.com/documentation/
+  description: |
+    This is the ReportLab PDF Toolkit. It allows rapid creation
+    of rich PDF documents, and also creation of charts in a variety
+    of bitmap and vector formats.
+  doc_url: https://docs.reportlab.com
 
 extra:
   recipe-maintainers:
