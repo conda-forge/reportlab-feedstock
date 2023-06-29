@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -25,12 +25,12 @@ requirements:
     - setuptools
     - pillow >=9
     - rlpycairo >=0.2.0
-    - freetype-py >=2.3
+    - freetype-py >=2.3,<2.4
   run:
     - python
     - pillow >=9
     - rlpycairo >=0.2.0
-    - freetype-py >=2.3
+    - freetype-py >=2.3,<2.4
 
 test:
   imports:
