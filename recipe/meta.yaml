@@ -20,6 +20,7 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
   host:
+    - chardet
     - pip
     - python
     - setuptools
@@ -27,6 +28,7 @@ requirements:
     - rlpycairo >=0.2.0
     - freetype-py >=2.3,<2.4
   run:
+    - chardet
     - python
     - pillow >=9
     - rlpycairo >=0.2.0
