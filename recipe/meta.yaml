@@ -1,6 +1,6 @@
 {% set name = "reportlab" %}
-{% set version = "4.0.7" %}
-{% set sha256 = "967c77f00efd918cc231cf8b6d8f4e477dc973b5c16557e3bd18dfaeb5a70234" %}
+{% set version = "4.0.8" %}
+{% set sha256 = "169945817a1a7759fb7b7dae528c2f8064fc21d16338d9b572ebdcb756740853" %}
 
 package:
   name: {{ name|lower }}
@@ -20,6 +20,7 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
   host:
+    - chardet
     - pip
     - python
     - setuptools
@@ -27,6 +28,7 @@ requirements:
     - rlpycairo >=0.2.0
     - freetype-py >=2.3,<2.4
   run:
+    - chardet
     - python
     - pillow >=9
     - rlpycairo >=0.2.0
