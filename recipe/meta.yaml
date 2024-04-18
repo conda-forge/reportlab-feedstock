@@ -1,6 +1,6 @@
 {% set name = "reportlab" %}
-{% set version = "4.1.0" %}
-{% set sha256 = "3a99faf412691159c068b3ff01c15307ce2fd2cf6b860199434874e002040a84" %}
+{% set version = "4.2.0" %}
+{% set sha256 = "474fb28d63431a5d47d75c90d580393050df7d491a09c7877df3291a2e9f6d0a" %}
 
 package:
   name: {{ name|lower }}
@@ -19,6 +19,7 @@ requirements:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - chardet
     - pip
