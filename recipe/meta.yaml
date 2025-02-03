@@ -1,6 +1,6 @@
 {% set name = "reportlab" %}
-{% set version = "4.2.5" %}
-{% set sha256 = "5cf35b8fd609b68080ac7bbb0ae1e376104f7d5f7b2d3914c7adc63f2593941f" %}
+{% set version = "4.3.0" %}
+{% set sha256 = "a90754589bea1c921a745aa981677d2d144f50c690800cda29aafae67c1a8d93" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
