@@ -1,6 +1,6 @@
 {% set name = "reportlab" %}
-{% set version = "4.4.1" %}
-{% set sha256 = "5f9b9fc0b7a48e8912c25ccf69d26b82980ab0da718e4f583fa720e8f8f5073f" %}
+{% set version = "4.4.3" %}
+{% set sha256 = "073b0975dab69536acd3251858e6b0524ed3e087e71f1d0d1895acb50acf9c7b" %}
 
 package:
   name: {{ name|lower }}
