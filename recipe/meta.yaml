@@ -21,7 +21,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
   host:
-    - chardet
+    - charset-normalizer
     - pip
     - python
     - setuptools
@@ -29,7 +29,7 @@ requirements:
     - rlpycairo >=0.2.0
     - freetype-py >=2.3,<2.4
   run:
-    - chardet
+    - charset-normalizer
     - python
     - pillow >=9
     - rlpycairo >=0.2.0
