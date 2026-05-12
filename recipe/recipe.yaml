@@ -1,6 +1,6 @@
 context:
   name: reportlab
-  version: "4.5.0"
+  version: "4.5.1"
   python_min: "3.9"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/reportlab/reportlab-${{ version }}.tar.gz
-  sha256: e595932789ab7a107ba253e83f7815622708a9fd49920d0d6a909880eb66ac75
+  sha256: 9fdf68f4de9171ec66acb4a5feed8f8ca2af43479e707a6fbb0daa75d88e5494
 
 build:
   number: 0
